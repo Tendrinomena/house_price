@@ -1,0 +1,33 @@
+
+.navbar{
+  // padding: 2%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.navbar-brand{
+  color: #EC4899 !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size:  1.5em;
+}
+.navbar-toggler{
+  background-color: #fff;
+}
+.navbar-toggler-icon{
+  background-color: black;
+}
+.nav-item{
+  width: 15ch;
+  text-align: center;
+}
+.nav-link{
+  color: white !important;
+  font-weight: 600;
+  font-size:  1em;
+}
+.contact-me{
+  background-color:rgba(89, 87, 233, 1);
+  border-radius: 4px;
+  color: #ACB3CA !important;
+  height: 100%;
+}

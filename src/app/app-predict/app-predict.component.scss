@@ -1,0 +1,51 @@
+.predict-part{
+  margin: auto;
+  height: 35em;
+}
+form{
+  height: 100%;
+}
+h1{
+  text-align: center;
+  font-weight: 100;
+  font-size: 66.46px;
+}
+.form-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.form-control {
+  width: 80% !important;
+  background-color: black;
+  border-color: #fff;
+  color: #fff;
+  border-radius: 5px;
+}
+*{
+  color: #fff;
+  // line-height: 3em;
+}
+label{
+  color:#EC4899;
+  font-weight: 400;
+font-size: 17px;
+}
+.button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button
+{
+  padding: 10px;
+  background: linear-gradient(135.66deg, #EC4899 15.89%, #F87171 84.95%);
+  border-color: #F87171;
+  border-radius: 4px;
+  width: 16%;
+  font-weight: 600;
+  font-size: 1.2em;
+}

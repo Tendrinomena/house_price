@@ -1,0 +1,43 @@
+<div class="predict-part">
+  <form action="">
+    <h1>Please select your choice</h1>
+    <div class="form-content">
+      <div>
+        <div class="mb-3">
+          <label for="bedrooom" class="form-label">Number of bedroom </label>
+          <input type="number" name="bedrooom" id="bedrooom" class="form-control" [(ngModel)]="house.nb_bedrooms">
+        </div>
+        <div class="mb-3">
+          <label for="garages" class="form-label">Number of garages</label>
+          <input type="number" name="garages" id="garages" class="form-control" [(ngModel)]="house.nb_garages">
+        </div>
+        <div class="mb-3">
+          <label for="bathroom" class="form-label"> Number of bathroom</label>
+          <input type="number" name="bathroom" id="bathroom" class="form-control" [(ngModel)]="house.nb_bathrooms">
+        </div>
+      </div>
+      <div>
+        <div class="mb-3">
+          <label for="garden" class="form-label">Number of garden</label>
+          <input type="number" name="garden" id="garden" class="form-control" [(ngModel)]="house.nb_garden">
+        </div>
+        <div class="mb-3">
+          <label for="parking" class="form-label">Number of parking</label>
+          <input type="number" name="parking" id="parking" class="form-control" [(ngModel)]="house.nb_parking">
+        </div>
+        <div class="mb-3 form-check">
+          <label for="pool" class="form-check-label">With pool</label>
+          <input type="checkbox" name="pool" id="pool" class="form-check-input" [(ngModel)]="house.with_pool">
+        </div>
+        <!-- <div class="mb-3 form-check">
+          <label for="pet" class="form-check-label">Pet allowed</label>
+          <input type="checkbox" name="pet" id="pet" class="form-check-input"[(ngModel)]="house.pet">
+        </div> -->
+      </div>
+  </div>
+  <div class="button">
+    <button type="submit" class="btn" (click)="postData()">Predict</button>
+  </div>
+  <p>{{data|json}}</p>
+  </form>
+</div>
