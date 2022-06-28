@@ -27,12 +27,12 @@ export class AppPredictComponent implements OnInit {
   }
 
   getData(){
-    this.data = this.http.get("http://localhost:8000/api/send/").subscribe(
+    this.data = this.http.get("https://portfolio-anitah.herokuapp.com/api/send/").subscribe(
       x =>this.data = x
     )
   }
   postData(){
-    this.data = this.http.post("http://localhost:8000/api/", this.house ).subscribe(
+    this.data = this.http.post("https://portfolio-anitah.herokuapp.com/api/", this.house ).subscribe(
       x =>this.data = x
     )
   }
